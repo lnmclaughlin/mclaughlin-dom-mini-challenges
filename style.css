@@ -1,0 +1,96 @@
+body {
+  margin: none;
+}
+
+.vending-machine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.cola,
+.peanuts,
+.chocolate,
+.gummies {
+  border-radius: 5px;
+  background-color: grey;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.make-money-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px hidden black;
+  margin: 10px;
+  padding-top: 80px;
+}
+.make-money label {
+  margin: 10px;
+  padding: 10px 20px;
+}
+.money-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.penny {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: black;
+  background-color: rgba(108, 72, 5, 0.51);
+  position: absolute;
+  text-align: center;
+}
+
+.nickel {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  background-color: silver;
+  position: absolute;
+  text-align: center;
+}
+.dime {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  background-color: silver;
+  position: absolute;
+  text-align: center;
+}
+.quarter {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: silver;
+  position: absolute;
+  text-align: center;
+}
+.light-bulb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+.bulb {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  margin-top: 100px;
+  background-color: black;
+}
+
+.turn-on {
+  background-color: yellow;
+}
